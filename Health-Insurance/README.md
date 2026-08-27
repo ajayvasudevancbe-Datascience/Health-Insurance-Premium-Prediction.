@@ -1,10 +1,8 @@
-# AI HealthGuard — AI Health Insurance Risk Manager
+# Health Insurance Risk Manager
 
 A Streamlit-based Machine Learning application for predicting health insurance costs and classifying customer risk.
 
-## Hackathon Track
 
-**Track 2 — AI Risk Manager**
 
 ## Features
 
