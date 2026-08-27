@@ -6,11 +6,7 @@
 
 The application analyzes customer information to estimate insurance costs, classify risk levels, and provide meaningful insights that can support insurance risk assessment and decision-making.
 
-## 🎯 Hackathon Track
 
-### 🥇 Track 2 — AI Risk Manager
-
-Use Artificial Intelligence and Machine Learning to identify, analyze, and manage insurance-related risk.
 
 ## 💡 Problem Statement
 
