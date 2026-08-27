@@ -1,40 +1,44 @@
-# AI HealthGuard — AI Health Insurance Risk Manager
+# 🏥 AI HealthGuard — AI Health Insurance Risk Manager
 
-A Streamlit-based Machine Learning application for predicting health insurance costs and classifying customer risk.
-
-## Hackathon Track
-
-**Track 2 — AI Risk Manager**
+AI HealthGuard is a Machine Learning-powered Streamlit application that predicts a customer's health insurance premium and classifies the customer into Low, Medium, or High Risk categories.
 
 ## Features
 
-- Insurance cost prediction
-- Low / Medium / High risk classification
-- Risk factor analysis
-- Interactive Streamlit dashboard
-- Business insights
-- Model performance metrics
-- AI-style risk explanations and recommendations
+- Insurance premium prediction
+- Risk classification
+- Interactive Streamlit interface
+- Random Forest regression model
+- Customer information summary
 
-## Expected CSV Columns
+## Workflow
 
-The application works with a CSV containing:
+Health Insurance Dataset → Data Cleaning → Feature Engineering → Random Forest Model → Premium Prediction → Risk Classification → Streamlit Application
 
-- age
-- sex
-- bmi
-- children
-- smoker
-- region
-- charges
+## Project Structure
 
-Place the CSV in the project folder as `health_insurance.csv` or `insurance.csv`.
+```text
+health-insurance-premium-prediction/
+├── app.py
+├── requirements.txt
+├── health_insurance_model.pkl
+├── health_insurance.csv
+└── README.md
+```
 
-## Run
+## Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application can also run without a CSV because it includes sample data for demonstration.
+## Streamlit Cloud
+
+- Branch: `main`
+- Main file path: `app.py`
+
+## Author
+
+**Ajay Vasudevan**
+
+B.Sc. Data Science | Data Analytics | Machine Learning | Generative AI
