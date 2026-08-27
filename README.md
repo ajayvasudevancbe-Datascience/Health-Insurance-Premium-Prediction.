@@ -1,0 +1,6 @@
+### Health Insurance Premium Prediction
+Developed a **Health Insurance Premium Prediction** model to estimate insurance charges based on customer characteristics such as **age, BMI, number of children, sex, smoking status, and region**. Performed **data exploration, preprocessing, categorical encoding, and feature transformation** to prepare the dataset for machine learning. The data was split into **70% training and 30% testing** sets.
+
+Built and compared three **Linear Regression models** using progressively larger feature sets: **Model 1 – Age**, which used only age as the predictor and achieved an **R² score of 0.097**; **Model 2 – Age + BMI**, which used age and BMI to improve predictive capability; and **Model 3 – All Features**, which used **age, BMI, number of children, sex, smoking status, and region** to provide a more comprehensive prediction of insurance charges.
+
+Used **Statsmodels** to analyze the **statistical relationships and significance of customer characteristics** in relation to insurance charges. The comparison demonstrated that **age alone has limited predictive power**, while incorporating additional demographic and lifestyle features improved the model's ability to predict insurance charges.
